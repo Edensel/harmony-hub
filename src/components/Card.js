@@ -61,7 +61,13 @@ export default function Card() {
                 >
                   <i className="bi bi-list"></i>
                                 </button>
-                                
+                                <ul className="dropdown-menu">
+                  <li>
+                    <button className="dropdown-item text-secondary">
+                      Pin
+                    </button>
+                                    </li>
+                  </ul>                  
                             </div>
                         </div>
                     </div>

@@ -1,9 +1,11 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 const NavBar = ({ keyword, handleKeyPress, setKeyword, fetchMusicData }) => {
 
   return (
-    
+
     <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="/v-music">

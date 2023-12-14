@@ -11,4 +11,10 @@ function CreatePlaylist() {
     localStorage.setItem("allPlaylist", currentPlaylist.toString());
 
     };
+
+    return (
+        <div className="modal-dialog"></div>
+            {/* .... */}
+        </div>
+    );
 }

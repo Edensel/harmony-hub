@@ -82,7 +82,52 @@ function App() {
         <Route path="/" element={<div></div>} />
       </Routes>
 
-      
+      <div className="container">
+        <div className={`row ${isLoading ? "" : "d-none"}`}>
+          <div className="col-12 py-5 text-center">
+            <div
+              className="spinner-border"
+              style={{ width: "3rem", height: "3rem" }}
+              role="status"
+            >
+              <span className="visually-hidden">Loading...</span>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          {tracks.map((element) => {
+            return <Card key={element.id} element={element} />;
+          })}
+        </div>
+        <div className="row">
+          <div className="col">
+            <h4 className="text-center text-danger py-2">{message}</h4>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12 py-5 text-center">
+            <h1>
+              <img src="logo.png" alt="Harmony Hub" />
+              Harmony-Hub
+            </h1>
+            <h3 className="py-5">Discover music in 10 seconds</h3>
+            <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
+              <div className="container-fluid">
+                <div className="dropdown">
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div
+        className="modal fade position-absolute"
+        id="exampleModal"
+        tabIndex={-1}
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+      </div>
     </>
   );
 }

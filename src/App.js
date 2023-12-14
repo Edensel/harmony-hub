@@ -4,6 +4,10 @@ import { useEffect, useState } from "react";
 import Card from "./components/Card";
 import CreatePlaylist from "./components/CreatePlaylist";
 import { initializePlaylist } from "./initialize";
+import { Route, Routes } from "react-router-dom";
+import LikedMusic from "./components/LikedMusic";
+import Navbar from "./components/Navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [keyword, setKeyword] = useState("");
@@ -131,6 +135,7 @@ function App() {
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
+        <CreatePlaylist />
       </div>
     </>
   );

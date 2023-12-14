@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function CreatePlaylist() {
     const [playlistName, setPlaylistName] = useState("");
@@ -9,6 +9,7 @@ function CreatePlaylist() {
     currentPlaylist = JSON.parse(currentPlaylist);
     currentPlaylist[playlistName] = []; 
     localStorage.setItem("allPlaylist", currentPlaylist.toString());
+
     };
 
     return (

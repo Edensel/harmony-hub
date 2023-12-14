@@ -67,6 +67,11 @@ export default function Card() {
                       Pin
                     </button>
                                     </li>
+                                    <li>
+                    <button className="dropdown-item text-secondary">
+                      Your Playlist
+                    </button>
+                  </li>
                   </ul>                  
                             </div>
                         </div>

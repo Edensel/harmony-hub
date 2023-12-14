@@ -80,6 +80,7 @@ export default function Card() {
                     <p className="card-text">
                         Release Date: {element.album.release_date}
                     </p>
+                    <audio src={element.preview_url} controls className="w-100"></audio>
                 </div>
             </div>
 

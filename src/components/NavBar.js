@@ -1,6 +1,6 @@
-import './App.css';
+import React from "react";
 
-function App() {
+function NavBar() {
   return (
     <div>
       <h3>Harmony Hub</h3>
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default NavBar;

@@ -1,14 +1,10 @@
 import './App.css';
-import NavBar from 'NavBar'
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div>
-      < Navbar />
-      <h3>Harmony Hub</h3>
-      <h3>Harmony Hub</h3>
-      <h3>Harmony Hub</h3>
-      <h3>Harmony Hub</h3>
+      < NavBar />
     </div>
   );
 }

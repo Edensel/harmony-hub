@@ -8,7 +8,7 @@ const NavBar = ({ keyword, handleKeyPress, setKeyword, fetchMusicData }) => {
 
     <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/v-music">
+        <a className="navbar-brand" href="/">
           <img src="logo.png" alt="Harmony Hub" /> Harmony-Hub
         </a>
         <div className="dropdown">

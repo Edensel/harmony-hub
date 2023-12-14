@@ -40,3 +40,5 @@ function CreatePlaylist() {
 
     );
 }
+
+export default CreatePlaylist;

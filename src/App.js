@@ -1,5 +1,9 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
+import { useEffect, useState } from "react";
+import Card from "./components/Card";
+import CreatePlaylist from "./components/CreatePlaylist";
+import { initializePlaylist } from "./initialize";
 
 function App() {
   const [keyword, setKeyword] = useState("");

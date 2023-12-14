@@ -25,6 +25,18 @@ function CreatePlaylist() {
           onChange={(e) => setPlaylistName(e.target.value)}
         />
     </div>
+    <div className="modal-footer">
+          <button
+            type="button"
+            className="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Cancel
+          </button>
+          <button onClick={create} type="button" className="btn btn-primary">
+            Create
+          </button>
+        </div>
 
     );
 }

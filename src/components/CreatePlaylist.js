@@ -25,7 +25,7 @@ function CreatePlaylist() {
             aria-label="Close"
           />
         </div>
-    <div className="modal-body"></div>
+        <div className="modal-body">
         <input
           type="text"
           placeholder="Enter Name"
@@ -45,6 +45,7 @@ function CreatePlaylist() {
           <button onClick={create} type="button" className="btn btn-primary">
             Create
           </button>
+        </div>
         </div>
         </div>
 

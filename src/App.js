@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      
+      <h3>Harmony Hub</h3>
     </div>
   );
 }

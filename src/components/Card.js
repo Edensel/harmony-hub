@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function Card() {
     const [likedMusic, setLikedMusic] = useState([]);
@@ -19,8 +19,17 @@ export default function Card() {
         }
     }
 
+    useEffect(() => { 
+
+    }, []);
+
     return (
-        <div>
+        <div key={element.id} className="col-lg-3 col-md-6 py-2">
+            <div>   
+                <div>   
+                    
+                </div>
+            </div>
 
         </div>
     );

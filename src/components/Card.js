@@ -51,7 +51,18 @@ export default function Card() {
                 <button className="btn btn-outline-secondary">
                   <i onClick={handleLike} className="bi bi-heart"></i>
                 </button>
-              )}
+                            )}
+                            <div className="dropdown mx-1">
+                            <button
+                  className="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i className="bi bi-list"></i>
+                                </button>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>

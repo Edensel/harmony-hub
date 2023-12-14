@@ -2,8 +2,14 @@ import './App.css';
 import NavBar from './components/NavBar';
 
 function App() {
+  const [keyword, setKeyword] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [message, setMessage] = useState("");
+  const [tracks, setTracks] = useState([]);
+  const [token, setToken] = useState(null);
   // First we create a function to fetch music data from the Spotify API based on search query.
-  
+      
+
     const fetchMusicData = async () => {
       setIsLoading(true);
       try {

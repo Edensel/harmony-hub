@@ -41,6 +41,33 @@ function App() {
       }
     };
     
+    useEffect(() => {
+      initializePlaylist();
+  
+      const fetchToken = async () => {
+        try {
+          const response = await fetch("https://accounts.spotify.com/api/token", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: "grant_type=client_credentials&client_id=3cf148b50f394ed7bf135002bea69400&client_secret=71cf1d5bce2b45b0a8f5cd9e08e75556",
+          });
+  
+          if (!response.ok) {
+            throw new Error("Failed to fetch token");
+          }
+  
+          const jsonData = await response.json();
+          setToken(jsonData.access_token);
+        } catch (error) {
+          setMessage(error.message);
+        } finally {
+          setIsLoading(false);
+        }
+      };
+      fetchToken();
+    }, []);
 
 
   return (

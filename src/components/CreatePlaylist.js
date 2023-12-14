@@ -16,7 +16,7 @@ function CreatePlaylist() {
         <div className="modal-dialog"></div>
             {/* .... */}
         </div>
-        
+    <div className="modal-body"></div>
         <input
           type="text"
           placeholder="Enter Name"
@@ -24,5 +24,7 @@ function CreatePlaylist() {
           value={playlistName}
           onChange={(e) => setPlaylistName(e.target.value)}
         />
+    </div>
+
     );
 }

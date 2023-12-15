@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-export default function Card() {
-    const [likedMusic, setLikedMusic] = useState([]);
+export default function Card({element}) {
+    const [likedMusic, setlikedMusic] = useState([]);
 
     const handleLike = () => {
         let likedMusic = localStorage.getItem("likedMusic");
@@ -21,7 +21,7 @@ export default function Card() {
 
     useEffect(() => { 
         const localLikedMusic = JSON.parse(localStorage.getItem("likedMusic"));
-        setLikedMusic(localLikedMusic);
+        setlikedMusic(localLikedMusic);
     }, []);
 
     return (
@@ -30,7 +30,7 @@ export default function Card() {
                 <div className="ratio ratio-1x1 bg-secondary bg-opacity-25">
 
                     <img
-                        src={element.album.image[0].url}
+                        src={element.album.images[0].url}
                         className="card-img-top"
                         alt="..."
                     />

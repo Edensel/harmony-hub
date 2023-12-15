@@ -30,7 +30,7 @@ export default function Card({element}) {
                 <div className="ratio ratio-1x1 bg-secondary bg-opacity-25">
 
                     <img
-                        src={element.album.image[0].url}
+                        src={element.album.images[0].url}
                         className="card-img-top"
                         alt="..."
                     />

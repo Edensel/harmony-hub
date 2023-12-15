@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-export default function Card() {
-    const [likedMusic, setLikedMusic] = useState([]);
+export default function Card({element}) {
+    const [likedMusic, setlikedMusic] = useState([]);
 
     const handleLike = () => {
         let likedMusic = localStorage.getItem("likedMusic");
@@ -21,7 +21,7 @@ export default function Card() {
 
     useEffect(() => { 
         const localLikedMusic = JSON.parse(localStorage.getItem("likedMusic"));
-        setLikedMusic(localLikedMusic);
+        setlikedMusic(localLikedMusic);
     }, []);
 
     return (

@@ -6,7 +6,6 @@ import CreatePlaylist from "./components/CreatePlaylist";
 import { initializePlaylist } from "./initialize";
 import { Route, Routes } from "react-router-dom";
 import LikedMusic from "./components/LikedMusic";
-import NavBar from "./components/NavBar";
 
 function App() {
   const [keyword, setKeyword] = useState("");

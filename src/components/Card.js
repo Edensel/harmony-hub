@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-export default function Card({ element }) {
-    const [likedMusic, setLikedMusic] = useState([]);
+export default function Card() {
+    const [likedMusic, setlikedMusic] = useState([]);
 
     const handleLike = () => {
         let likedMusic = localStorage.getItem("likedMusic");
@@ -9,12 +9,12 @@ export default function Card({ element }) {
         let updatedLikedMusic = [];
         if (likedMusic.some((item) => item.id === element.id)) {
             updatedLikedMusic = likedMusic.filter((item) => item.id !== element.id);
-            setLikedMusic(updatedLikedMusic);
+            setlikedMusic(updatedLikedMusic);
             localStorage.setItem("likedMusic", JSON.stringify(updatedLikedMusic));
         } else {
             updatedLikedMusic = likedMusic;
             updatedLikedMusic.push(element);
-            setLikedMusic(updatedLikedMusic);
+            setlikedMusic(updatedLikedMusic);
             localStorage.setItem("likedMusic", JSON.stringify(updatedLikedMusic));
         }
     }

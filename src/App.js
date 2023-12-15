@@ -5,7 +5,7 @@ import Card from "./components/Card";
 import CreatePlaylist from "./components/CreatePlaylist";
 import { initializePlaylist } from "./initialize";
 import { Route, Routes } from "react-router-dom";
-import LikedMusic from "./components/LikedMusic";
+import LikedMusic from "./components/FavoriteMusic";
 
 function App() {
   const [keyword, setKeyword] = useState("");

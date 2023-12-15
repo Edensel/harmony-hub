@@ -9,12 +9,12 @@ export default function Card() {
         let updatedLikedMusic = [];
         if (likedMusic.some((item) => item.id === element.id)) {
             updatedLikedMusic = likedMusic.filter((item) => item.id !== element.id);
-            setlikedMusic(updatedLikedMusic);
+            setLikedMusic(updatedLikedMusic);
             localStorage.setItem("likedMusic", JSON.stringify(updatedLikedMusic));
         } else {
             updatedLikedMusic = likedMusic;
             updatedLikedMusic.push(element);
-            setlikedMusic(updatedLikedMusic);
+            setLikedMusic(updatedLikedMusic);
             localStorage.setItem("likedMusic", JSON.stringify(updatedLikedMusic));
         }
     }

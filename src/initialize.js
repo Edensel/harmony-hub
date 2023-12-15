@@ -1,5 +1,3 @@
-// cheking for current playlist in browser
-
 export const initializePlaylist = () => {
     let likedMusic = localStorage.getItem("likedMusic");
     if (!likedMusic) {

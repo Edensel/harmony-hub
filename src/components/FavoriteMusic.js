@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 
 
-function FavoriteMusic() {
+function LikedMusic() {
     return (
         <div>
             <div className="container">
@@ -15,4 +15,4 @@ function FavoriteMusic() {
         </div>
     ) 
 };
-export default FavoriteMusic;
+export default LikedMusic;

@@ -23,9 +23,9 @@ To use the app, simply open it in your web browser and start searching for songs
 ### Contributing
 This app was created by a team of four developers, each of whom contributed to different parts of the project:
 
-Martin - Music Filtering Implementation
-Ashley - Dynamic Search Feature
-Alex - Liked Songs Playlist Development
+Martin Maina - Music Filtering Implementation
+Ashley Precious - Dynamic Search Feature
+Alex  Musyoki- Liked Songs Playlist Development
 Densel - Music Library Display
 
 

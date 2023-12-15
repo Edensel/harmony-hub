@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export default function Card() {
+export default function Card({element}) {
     const [likedMusic, setlikedMusic] = useState([]);
 
     const handleLike = () => {

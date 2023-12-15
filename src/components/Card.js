@@ -37,7 +37,7 @@ export default function Card({element}) {
 
                 </div>
                 <div className="card-body">
-                    <h5 className="card title d-flex justify-content-between">
+                    <h5 className="card-title d-flex justify-content-between">
                         {element.name}
                         <div className="add-options d-flex align-items-start">
                             {likedMusic.some((item) => item.id === element.id) ? (

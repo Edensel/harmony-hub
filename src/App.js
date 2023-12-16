@@ -6,6 +6,7 @@ import CreatePlaylist from "./components/CreatePlaylist";
 import { initializePlaylist } from "./initialize";
 import { Route, Routes } from "react-router-dom";
 import LikedMusic from "./components/FavoriteMusic";
+import About from "./components/About";
 
 function App() {
   const [keyword, setKeyword] = useState("");
@@ -85,6 +86,7 @@ function App() {
 
       <Routes>
         <Route path="/likedMusic" element={<LikedMusic />} />
+        <Route path="/about" element={<About />} />
         <Route path="/" element={<div></div>} />
       </Routes>
 
@@ -118,10 +120,7 @@ function App() {
             </h1>
             <h3 className="py-5">Discover music in 10 seconds</h3>
             <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
-              <div className="container-fluid">
-                <div className="dropdown">
-                </div>
-              </div>
+              <p className="navbar-brand">Densel</p>
             </nav>
           </div>
         </div>

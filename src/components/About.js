@@ -7,7 +7,7 @@ const About = () => {
       name: "Densel Esekon",
       imageSrc: "./assets/Densel.jpeg",
       description: "Scrum Master",
-      linkedin: "www.https://www.linkedin.com/in/densel-esekon",
+      linkedin: "www.https://www.linkedin.com/in/denselesekon",
       github: "https://github.com/Edensel",
     },
     {
@@ -21,7 +21,7 @@ const About = () => {
         name: "Alex Musyoki",
         imageSrc: "./assets/Alex.jpg",
         description: "Collaborator",
-        linkedin: "linkedin.com/in/alex-musyoki-153a142a5", 
+        linkedin: "https://www.linkedin.com/in/alex-musyoki-153a142a5", 
         github: "https://github.com/nezhprodigy",
       },
       {

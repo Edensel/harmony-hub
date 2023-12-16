@@ -119,8 +119,12 @@ function App() {
               Harmony-Hub
             </h1>
             <h3 className="py-5">Discover music in 10 seconds</h3>
-            <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
-              <p className="navbar-brand">Densel</p>
+            <nav className="navbar navbar-dark navbar-expand-lg bg-dark d-flex flex-column align-items-center">
+              <p className="navbar-brand">Copyright &copy; 2023 
+              <div className="Team">
+                <p>Densel Esekon. Martin Maina. Ashley Precious. Alex Musyoki.</p>
+                </div>
+                </p>
             </nav>
           </div>
         </div>

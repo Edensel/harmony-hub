@@ -1,34 +1,35 @@
 import React from "react";
 
+
 const About = () => {
   const teamMembers = [
     {
       name: "Densel Esekon",
-      imageSrc: "image_url_1",
-      description: "Description for member 1",
+      imageSrc: "./assets/Densel.jpeg",
+      description: "Scrum Master",
       linkedin: "www.https://www.linkedin.com/in/densel-esekon",
       github: "https://github.com/Edensel",
     },
     {
         name: "Martin Maina",
-        imageSrc: "image_url_1",
-        description: "Description for member 1",
-        linkedin: "linkedin_link_1",
-        github: "github_link_1",
+        imageSrc: "./assets/Martin.png",
+        description: "Collaborator",
+        linkedin: "https://www.linkedin.com/in/mainamartin",
+        github: "https://github.com/TintinSDev",
       },
       {
         name: "Alex Musyoki",
-        imageSrc: "image_url_1",
-        description: "Description for member 1",
-        linkedin: "linkedin_link_1",
-        github: "github_link_1",
+        imageSrc: "./assets/Alex.jpg",
+        description: "Collaborator",
+        linkedin: "linkedin.com/in/alex-musyoki-153a142a5", 
+        github: "https://github.com/nezhprodigy",
       },
       {
         name: "Ashley Precious",
-        imageSrc: "image_url_1",
-        description: "Description for member 1",
-        linkedin: "linkedin_link_1",
-        github: "github_link_1",
+        imageSrc: "./assets/Ashley.jpg",
+        description: "Collaborator",
+        linkedin: "https://www.linkedin.com/in/ashley-precious-a3b291236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        github: "https://github.com/Ashleyprecious",
       },
     // Other members to input their data
   ];
@@ -42,7 +43,7 @@ const About = () => {
               <img
                 src={member.imageSrc}
                 className="card-img-top rounded-circle"
-                alt={`Team Member ${index + 1}`}
+                alt=""
               />
               <div className="card-body">
                 <h5 className="card-title">{member.name}</h5>

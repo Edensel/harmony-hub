@@ -6,8 +6,8 @@ const About = () => {
       name: "Densel Esekon",
       imageSrc: "image_url_1",
       description: "Description for member 1",
-      linkedin: "linkedin_link_1",
-      github: "github_link_1",
+      linkedin: "www.https://www.linkedin.com/in/densel-esekon",
+      github: "https://github.com/Edensel",
     },
     {
         name: "Martin Maina",

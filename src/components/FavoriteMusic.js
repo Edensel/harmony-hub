@@ -54,7 +54,7 @@ function LikedMusic({ music }) {
               <button
                 onClick={deleteAllLikedMusic}
                 className="btn btn-outline-danger"
-              > //clears all liked music from the list
+              > 
                 Delete All Liked Music
               </button>
             )}

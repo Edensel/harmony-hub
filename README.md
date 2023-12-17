@@ -1,5 +1,5 @@
 ### Harmony-Hub 
-This is a music app built using React.js. It allows users to search for songs and listen to music. The app is built using modern web technologies and is optimized for both desktop and mobile devices.
+This is a :notes: music app built using React.js. It allows users to search for songs and listen to music. The app is built using modern web technologies and is optimized for both desktop and mobile devices.
 
 :e-mail: greata731@gmail.com
 ### Features

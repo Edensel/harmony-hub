@@ -17,6 +17,7 @@ To install the app, follow these steps:
 
 ## Usage
 To use the app, simply open it in your web browser and start searching for songs. You can create a Liked songs playlists by clicking on the “Like” button and adding songs to it. To listen to a song, simply click on it in the search results.
+![Harmony Hub (1) (1)](https://github.com/Edensel/harmony-hub/assets/144494588/303e0e2d-6837-4d47-95f1-4db4ee965cb0)
 
 ## Contributing
 This app was created by a team of four developers, each of whom contributed to different parts of the project:

@@ -1,6 +1,6 @@
 ![Harmony-Hub 🎶](https://github.com/Edensel/harmony-hub/assets/144494588/b2c6c87d-95cd-459b-9a36-aed3152be2cd)
 
-This is a **music app** built using React.js. It allows users to search for songs and listen to music.
+This is a **music app** built using *React.js*. It allows users to search for songs and listen to music.
 
 ## Features
 		-Search for songs by title or artist

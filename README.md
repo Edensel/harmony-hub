@@ -7,7 +7,7 @@ This is a **music app** built using React.js. It allows users to search for song
 		-Listen to music on-demand
 		-Save your favorite songs 
 
-### Installation
+## Installation
 To install the app, follow these steps:
 
 	-Clone the repository to your local machine.
@@ -15,10 +15,10 @@ To install the app, follow these steps:
 	-Start the development server using `npm start`.
 ![carbon2](https://github.com/Edensel/harmony-hub/assets/144494588/a6cf7c6a-cfca-4b65-97f1-1588282a4f2c)
 
-### Usage
+## Usage
 To use the app, simply open it in your web browser and start searching for songs. You can create a Liked songs playlists by clicking on the “Like” button and adding songs to it. To listen to a song, simply click on it in the search results.
 
-### Contributing
+## Contributing
 This app was created by a team of four developers, each of whom contributed to different parts of the project:
 
 	-*Martin Maina* - Music Filtering Implementation

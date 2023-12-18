@@ -1,3 +1,6 @@
+Final Code
+
+
 ![Harmony-Hub 🎶 (2)](https://github.com/Edensel/harmony-hub/assets/144494588/db16c679-9c75-4919-9b2a-b24b9a632a7e)
 
 This is a **music app** built using *React.js*. It allows users to search for songs and listen to music.
@@ -22,12 +25,11 @@ To use the app, simply open it in your web browser and start searching for songs
 ## Contributing
 This app was created by a team of four developers, each of whom contributed to different parts of the project:
 
-Martin Maina - Music Filtering Implementation
-Ashley Precious - Dynamic Search Feature
-Alex  Musyoki- Liked Songs Playlist Development
-Densel - Music Library Display
-
-
+	-*Martin Maina* - Worked on Card Component
+	-*Ashley Precious* - Worked on Card CreatePlaylist component
+	-*Alex Musyoki* - Worked on FavoriteMusic and Project README
+	-*Densel Esekson* - Worked on UI Design, Navbar and About Page
+ 
 ### Credits
 This app uses the following open-source libraries:
 

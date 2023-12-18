@@ -22,11 +22,12 @@ To use the app, simply open it in your web browser and start searching for songs
 ## Contributing
 This app was created by a team of four developers, each of whom contributed to different parts of the project:
 
-	-*Martin Maina* - Worked on Card Component
-	-*Ashley Precious* - Worked on Card CreatePlaylist component
-	-*Alex Musyoki* - Worked on FavoriteMusic and Project README
-	-*Densel Esekson* - Worked on UI Design, Navbar and About Page
- 
+Martin Maina - Music Filtering Implementation
+Ashley Precious - Dynamic Search Feature
+Alex  Musyoki- Liked Songs Playlist Development
+Densel - Music Library Display
+
+
 ### Credits
 This app uses the following open-source libraries:
 

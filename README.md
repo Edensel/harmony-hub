@@ -15,6 +15,7 @@ Clone the repository to your local machine.
 Install the required dependencies using npm install
 
 Start the development server using npm start.
+![carbon](https://github.com/Edensel/harmony-hub/assets/144494588/ef621ec8-3b72-4b83-9281-4ee9ed8e2dbb)
 
 
 ### Usage

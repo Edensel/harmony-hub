@@ -12,8 +12,8 @@ Save your favorite songs
 To install the app, follow these steps:
 
 Clone the repository to your local machine.
-Install the required dependencies using [npm install.](https://img.shields.io/npm/collaborators/npm%2Finstall
-)
+Install the required dependencies using ![npm collaborators](https://img.shields.io/npm/collaborators/install)
+
 Start the development server using npm start.
 
 
